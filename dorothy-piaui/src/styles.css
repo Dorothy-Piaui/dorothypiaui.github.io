@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --cor1: #BF213E;
+    --cor2: #F59520;
+    --cor3: #F8EBDA;
+    --cor4: #000000;
+    --cor5: #FFFFFF;
+
+    --font1: 'Oswald', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+
+    --font-size1: 24px;
+    --font-size2: 20px;   
+    --font-size3: 18px;
+    --font-size4: 46px;
+
+    --font-weight1: medium;
+    --font-weight2: normal;
+}
+
+html,
+body {
+    
+    height: 100%;
+}
+
