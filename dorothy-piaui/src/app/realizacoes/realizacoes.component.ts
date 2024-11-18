@@ -3,15 +3,14 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 
 @Component({
-  selector: 'app-welcome',
+  selector: 'app-realizacoes',
   standalone: true,
   imports: [
-    MatCardModule,
-    MatButtonModule
-  ],
-  templateUrl: './welcome.component.html',
-  styleUrl: './welcome.component.css'
+    MatButtonModule,
+    MatCardModule],
+  templateUrl: './realizacoes.component.html',
+  styleUrl: './realizacoes.component.css'
 })
-export class WelcomeComponent {
+export class RealizacoesComponent {
 
 }
