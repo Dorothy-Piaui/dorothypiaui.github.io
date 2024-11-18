@@ -1,6 +1,0 @@
-img{   
-    filter: brightness(12%) opacity(90%) blur(2px);
-    position: absolute;
-    clip: rect(0px, 1280px, 600px, 0px);
-    width: 100%;
-}

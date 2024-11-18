@@ -1,0 +1,5 @@
+img{   
+    filter: brightness(12%) opacity(90%) blur(2px);
+    position: absolute;
+    width: 100%;
+}
