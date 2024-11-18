@@ -1,7 +1,8 @@
 #header{
     display: flex;
-    padding-top: 30px;    
-    position: relative;
+    padding-top: 30px;   
+    position: relative; 
+    background: transparent;
 }
 
 mat-toolbar-row {
