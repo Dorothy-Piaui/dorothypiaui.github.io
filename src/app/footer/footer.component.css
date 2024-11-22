@@ -1,5 +1,6 @@
 .mat-toolbar{
     flex-direction: row;
+    background-color: var(--cor3);
 }
 
 .esquerdo span{

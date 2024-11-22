@@ -1,16 +1,16 @@
-#header{
-    display: flex;
-    padding-top: 30px;   
-    position: relative; 
-    background: transparent;
+mat-toolbar{
+    padding-top: 30px;  
+    padding-bottom: 10px; 
+    top: 0;
 }
 
-mat-toolbar-row {
-    justify-content: center;
+.logo{
+    padding-left: 70px;
 }
 
 span a {
     padding: 0px 10px 0px 10px;
+    position: relative;
     text-decoration: none;
     color: var(--cor1);
     font-family: var(--font1);

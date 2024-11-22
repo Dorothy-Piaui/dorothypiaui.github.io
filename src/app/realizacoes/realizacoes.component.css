@@ -1,19 +1,18 @@
 .carousel{
-    position: relative;
-}
-
-.evento1, evento2{
-    flex-direction: row;
+    position: static;
+    background-image: url("/assets/images/onda.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
-    height: 544px;
+    height: 100%;
 }
 
-.direito{
-    padding: 30px 100px 0 30px !important; 
+.carousel-inner{
+    padding: 100px;
 }
 
-.esquerdo{
-    padding-top: 30px;
+.evento1, .evento2{
+    flex-direction: row;
 }
 
 .adesivo{
@@ -25,8 +24,8 @@
 }
 
 .banner{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px !important;
     margin-left: 120px;
     position: relative;   
@@ -34,11 +33,12 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-mat-card-title{
+mat-card-header{
     font-size: var(--font-size4);
     color: var(--cor2);
     font-family: var(--font1);
     font-weight: var(--font-weight1);
+    padding: 0 0 0 0;
 }
 
 mat-card-content{
