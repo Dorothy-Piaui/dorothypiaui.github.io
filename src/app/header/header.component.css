@@ -1,0 +1,19 @@
+mat-toolbar{
+    padding-top: 30px;  
+    padding-bottom: 10px; 
+    top: 0;
+}
+
+.logo{
+    padding-left: 70px;
+}
+
+span a {
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    text-decoration: none;
+    color: var(--cor1);
+    font-family: var(--font1);
+    font-size: var(--font-size2);
+    font-weight: var(--font-weight1);
+}

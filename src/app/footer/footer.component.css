@@ -1,0 +1,22 @@
+.mat-toolbar{
+    flex-direction: row;
+    background-color: var(--cor3);
+}
+
+.esquerdo span{
+    padding-right: 30px;
+}
+
+.direito span{
+    padding-right: 10px;
+}
+
+.esquerdo{
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.direito{
+    justify-content: flex-end;
+    padding-right: 100px;
+}
